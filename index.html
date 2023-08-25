@@ -1,0 +1,197 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toheed Soudagar</title>
+
+    <!-- Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+   
+    <!-- Font Awsome Icons -->
+    <script src="https://kit.fontawesome.com/2786bc3471.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!------------------------------ Home ------------------------------>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/logo.png" class="logo">
+                <ul id="mobile-menu">
+                    <li><a href="#header">Home<span class="color">.</span></a></li>
+                    <li><a href="#about">About<span class="color">.</span></a></li>
+                    <li><a href="#services">Projects<span class="color">.</span></a></li>
+                    <li><a href="#portfolio">Portfolio<span class="color">.</span></a></li>
+                    <li><a href="#contact">Contact Me<span class="color">.</span></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <p onclick="openMenu()"><i class="fa-solid fa-bars" onclick="openMenue()"></i></p>
+            </nav>
+            <div class="header-text">
+                <p>A Fresher<span class="color">_</span></p>
+                <h1 class="main-title">Hi, I'm <span class="color">T</span>oheed Soudagar<br>
+                    "Enthusiastic fresher with a strong foundation. "<span class="bgcolor">Open for work.</span></h1>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------ About ------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_3888-01.jpeg" id="grayscale" alt="users">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me<span class="color">.</span></h2>
+                    <p>Highly motivated IT fresher with a strong
+                        foundation in computer science and proficiency
+                        in programming languages. Eager to contribute
+                        technical skills to solve real-world challenges
+                        and be a valuable team player in a dynamic IT
+                        environment. Quick learner, adaptable to new
+                        technologies, and committed to continuous
+                        growth.</p>
+                    <ul>
+                        <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                        <li class="tab-links" onclick="openTab('education')">Education</li>
+                        <li class="tab-links" onclick="openTab('experiences')">Experiences</li>
+                    </ul>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <h3 class="bgcolor">C</h3>
+                        <h3 class="bgcolor">Python</h3>
+                        <h3 class="bgcolor">Java(Basics)</h3>
+                        <h3 class="bgcolor">HTML</h3>
+                        <h3 class="bgcolor">CSS</h3>
+                        <h3 class="bgcolor">SQL</h3>
+                        <h3 class="bgcolor">JavaScript</h3>
+                        
+
+
+
+                    </div>
+
+                    <div class="tab-contents education" id="education">
+                        <h3 class="bgcolor">2020 - 2023</h3>
+                        <p>B.E CSE| in Jain College Of Engineering & Research Belagavi.</p>
+
+                        <h3 class="bgcolor">2015 - 2018</h3>
+                        <p>Diploma | B.V.V.S Polytechnic Bagalkot</p>
+
+                        <h3 class="bgcolor">2014 - 2015</h3>
+                        <p>High School | ViveKananda English Medium School Bagalkot</p>
+
+                    </div>
+
+                    <div class="tab-contents experiences" id="experiences">
+                        <h3 class="bgcolor">Bharat Electronics Limited.</h3>
+                        <p>Technical Apprenticeship | in Information System Division
+                            (A Govt. of India Enterprise, Ministry of Defence) Role
+:Technical Apprenticeship Department :INFORMATION
+SYSTEM DIVISION Contact : +91- 80-25039300
+                        </p>
+
+                        <h3 class="bgcolor">Compsoft Technologies</h3>
+                        <p>Internship on Python & Machine Learning | learned a lot with professional training.</p>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------ Services ------------------------------>
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Projects<span class="color">.</span></h2>
+            <div class="row">
+                <div class="services-col">
+                    <i class="fa-brands fa-android"></i><br>
+                    <h3>AR furniture system</h3>
+                    <p>"Revolutionizing Home Design: Our final-year B.E. project presents an AR furniture arrangement system. Combining Java, XML, and Augmented Reality, this innovative solution reshapes furniture shopping through immersive virtual placement and seamless purchasing."</p><br>
+                     
+                </div>
+                <div class="services-col">
+                    <i class="fa-brands fa-google-play"></i><br>
+                    <h3>Women's Safety App</h3>
+                    <p>A cutting-edge Android app dedicated to women's safety, combining real-time GPS tracking with instant SOS alerts, fostering a safer society for all."</p><br>
+                     
+                </div>
+                <div class="services-col">
+                    <i class="fa-brands fa-html5"></i></i>
+                    <h3>Online Examinations System,</h3>
+                    <p>Implemented a Web Application Online Examinations
+                        System for College Mini Project in 5th Sem of B.E</p><br>
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------ Portfolio ------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work<span class="color">.</span></h2>
+            <div class="row">
+                
+                <div class="portfolio-col">
+                    <img src="Screenshot 2023-08-25 at 10-36-28 Document.png">
+                    <div class="layer">
+                        <h3>Landing page Design</h3>
+                        <p>Crafted a captivating landing page for a prominent company as a freelance endeavor. Seamlessly blending design finesse with user-centric functionality, the page welcomes visitors and converts them into engaged customers."</p>
+                        <a href="https://toheedsoudagar.github.io/mysite/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">Learn More</button>
+        </div>
+    </div>
+
+    <!------------------------------ Contact ------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <!--------------------------------------------------------------------
+                <div class="contact-left">
+                    <form>
+                        <input type="text" name="fullName" id="full-name" placeholder="Your Name">
+                        <input type="email" name="Email" id="email" placeholder="Your Email">
+                        <textarea name="message" id="message"rows="10" placeholder="Your Message ..."></textarea>
+                        <input type="submit" value="Submit" class="btn2">
+                    </form>
+                </div>--->
+                <div class="contact-right">
+                    <h2 class="sub-title">My Contact<span class="color">.</span></h2>
+                    <p class="bgcolor"><i class="fa-sharp fa-solid fa-phone"></i> Phone</p>
+                    <p>+919538216982</p>
+                    <p class="bgcolor"><i class="fa-solid fa-paper-plane"></i> Email</p>
+                    <p>toheedsoudagar.jcer@gmail.com</p>
+                    <p class="bgcolor"><i class="fa-solid fa-user"></i> Social Profiles</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/toheedsoudagar"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://instagram.com/toheed_bs?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="https://github.com/toheedsoudagar"><i class="fa-brands fa-square-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Copyright © 2023 <span class="color">T</span>oheed<span class="color">.</span>   | All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
